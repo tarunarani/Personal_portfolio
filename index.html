@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio website</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/taruna rani.png" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="close" onclick="closemenu()"><p>✖</p></a></li>
+                </ul>
+                <a href="#" class="menu" onclick="openmenu()" ><p>☰</p></a>
+            </nav>
+            <div class="header-text">
+                <h1>Hey,<br> I'm Taruna Rani <br>And I'm a <span>Front-End Developer</span></h1>
+                </div>
+            </div>
+        </div>
+      </div> 
+<!----------------------------------------------about-------------------------------------------------->
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/profile photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="about">
+                    <p> Currently I'm pursuing Btech in Computer Science and Engineering From Bengal College of Engineering and Technology, Durgapur. My Future aim is to be a Web and Android Developer and I'm a adaptive kind of person.
+                        I'm interested in Basketball.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="experience">
+                            <ul>
+                                <li><span>june - july (2023)</span><br>Summer Internship at TATA Steel.<br> On web development to make responsible websites in both user  
+                                    and server side like students login page, feedback form , trainee information page,
+                                   signal page, and also admin page .
+                                   Tool used:- HTML, CSS, PHP, MYSQL.</li>
+                                <li><span>Dec (2022) - jan (2023) </span><br>Winter Internship at Central Coalfields Limited.<br> Where I get knowlegde about computer networks, how RFID works and there applications and also GPS tracking system at Electronics & Telecommunication Department.</li>
+                                <li><span>Nov (2020) - Dec (2020)</span><br>Internship at M/S Creative Soft.<br>Where I work on MS-office, MS-excel, Powerpoint</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - Current</span><br>BTech in Computer Science & Engineering from Bengal College of Engineering & Technology,Durgapur</li>
+                                <li><span>2018 - 2021</span><br>Diploma in Computer Science & Engineering from Government Women's Polytechnic,Ranchi</li>
+                                <li><span>2018</span><br>Matriculation from D.A.V Public School,Bachra</li>
+                            </ul>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+      </div> 
+  <!----------------------------------------------skills---------------------------------------------->  
+     <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <img src="image/core.jpeg" class="logo">
+                    <h2>Core Java</h2>
+                    <p> Java programming language that one can use for developing or creating a general-purpose app.
+                         Its main focus is to build such general applications. The J2SE (Java Standard Edition) is known as Core Java. 
+                        It mainly covers concepts of object-oriented programming (OOP).</p>
+                     <!--<a href="#">Learn more</a>---->  
+                  </div>
+              <div>
+                <img src="image/html.png" class="logo">
+                <h2>HTML/CSS</h2>
+                <p>Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS) are the fundamental building blocks of web pages.
+                   Proficiency in writing semantic HTML and styling it with CSS is essential.</p>
+                 <!---<a href="#">Learn more</a>--->  
+              </div>
+              <div>
+                <img src="image/javasrcipt.png" class="logo">
+                <h2>JavaScript</h2>
+                <p>JavaScript is a programming language used for adding interactivity and dynamic functionality to websites.
+                  Understanding core JavaScript concepts, libraries (e.g., jQuery) and frameworks (e.g., React, Angular, Vue.js) is valuable.</p>
+                 <!-------<a href="#">Learn more</a>----> 
+              </div>
+              <div>
+                <img src="image/sql.png" class="logo">
+                <h2>Databases and SQL</h2>
+                <p> Knowledge of database management systems (e.g., MySQL, PostgreSQL) and Structured Query Language (SQL) 
+                    is important for creating and managing databases that power web applications.</p>
+                 <!----<a href="#">Learn more</a>--->
+              </div>
+              <div>
+                <img src="image/api.jpg" class="logo">
+                <h2>API Integration</h2>
+                <p>Understanding how to work with Application Programming Interfaces (APIs) is crucial for integrating 
+                    third-party services, data retrieval, and creating more interactive web experiences.</p>
+                 <!----<a href="#">Learn more</a>--->
+              </div>
+              <div>
+                <img src="image/bootstrap.jpg" class="logo">
+                <h2>Responsive Design</h2>
+                <p>With the increasing use of mobile devices, it's important to create websites that are responsive and adapt to different screen sizes. 
+                   Knowledge of responsive design principles and frameworks (e.g., Bootstrap) is crucial.</p>
+                 <!-----<a href="#">Learn more</a>---->  
+              </div>
+              <div>
+                <img src="image/learning.jpg" class="logo">
+                <h2>Continuous Learning</h2>
+                <p> Web development is a constantly evolving field, so staying updated with the latest web technologies, trends, and 
+                    best practices is essential. Being open to learning new tools and frameworks is crucial.</p>
+                 <!----<a href="#">Learn more</a>---->
+              </div>
+            </div>
+        </div>
+      </div>
+<!------------------------------------------------------portfolio-------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="image/weather.jpg">
+                    <div class="layer">
+                        <h3>Weather Forecast System</h3>
+                        <p>I have completed this project with web development (HTML,CSS,JAVA SCRIPT) and its library.
+                        </p>
+                        <a href="https://github.com/tarunarani/weather_forecast"><img src="image/extern.webp"></a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+ <!------------------------------------------------------contact------------------------------------------------->   
+    <div id="contact">
+          <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="#"><img src="image/send paper_plane.png"></a>  ranitaruna15@gmail.com</p>
+                    
+                    <div class="social-icons">
+
+
+                    </div>
+                    <a href="Taruna Rani_Resume_BCET_.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="http://localhost/portfolio/portfolio.php" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message.........."></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>       
+          </div>
+          <div class="copyright">
+               <p> © Copyright 2023 www.taruna.com. All rights reserved. Developed by Taruna 🦋</p>
+          </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+      </script>
+
+    </body>
+</html>
